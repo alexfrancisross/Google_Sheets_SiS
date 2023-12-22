@@ -7,22 +7,12 @@ if "gsheet_url" not in st.session_state:
   st.session_state.gsheet_url = ''
 
 def validated_target() -> bool:
-    """
-    Check if a target table has been specified in the UI.
-    Return True if it has or False if it has not.
-    :return: bool
-    """
     if not st.session_state.get("table_name"):
         main_container.error("A target table name needs to be provided.")
         return False
     return True
 
 def validate_source() -> bool:
-    """
-    Check if source has been specified in the UI.
-    Return True if it has or False if it has not.
-    :return: bool
-    """
     if not st.session_state.get("gsheet_url"): 
         main_container.error("A Google Sheets URL needs to be provided'")
         return False
@@ -30,10 +20,6 @@ def validate_source() -> bool:
 
 def upload(
 ) -> None:
-    """
-    Upload the selected data to Snowflake.
-    :return: None
-    """
     if validated_target() and validate_source():
         with main_container:
             with st.spinner(text="Upload in progress."):
@@ -51,10 +37,6 @@ def upload(
 
 def preview(
 ) -> None:
-    """
-    Display the selected data in the UI as a preview of what will be uploaded.
-    :return: None
-    """
     if validate_source():
         with main_container:
             with st.spinner(text="Preview in progress."):
