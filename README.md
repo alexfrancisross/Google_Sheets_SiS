@@ -33,6 +33,7 @@ Please follow the steps below to install the connnector in your Snowflake Accoun
 ![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/2ef2c6ad-742e-40a1-a314-16da1f9133d8)
 
 **Step 9.** Copy and paste the python code from Google_Sheets_SiS.py into your Streamlit app:
-![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/6ef193c0-c84a-4467-a18e-cec3de586d57)
+![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/8cb412ec-9d71-4400-aa32-9c57ac1a8da6)
+
 
 Enjoy!
