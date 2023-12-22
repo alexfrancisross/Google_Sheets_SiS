@@ -48,7 +48,7 @@ select * from information_schema.packages where language = 'python'; --and packa
 --3. Setup Security Integration
 --Enable the Google Sheets API by navigating to this url and clicking enable: https://console.cloud.google.com/marketplace/product/google/sheets.googleapis.com
 --Create OAuth 2.0 Client ID for your GCP Project by navigating to https://console.cloud.google.com/apis/credentials
---Copy and paste you OAUTH_CLIENT_ID and OAUTH_CLIENT_SECRET values below
+--Copy and paste your OAUTH_CLIENT_ID and OAUTH_CLIENT_SECRET values below
 USE ROLE ACCOUNTADMIN;
 CREATE OR REPLACE SECURITY INTEGRATION gsheet_oauth
   TYPE = API_AUTHENTICATION
