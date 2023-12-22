@@ -29,8 +29,7 @@ Please follow the steps below to install the connnector in your Snowflake Accoun
 **Step 7.** Run Google_Sheets_External_Access.sql, ensuring that you upload the python libraries google.zip, gspread.zip, oauth2client.zip from the /lib folder to the Snowflake stage @GSHEET_APP.PUBLIC.PACKAGES using the role GSHEET_ADMIN: 
 ![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/68f49694-eb76-46f8-93b2-2bb2690db573)
 
-**Step 8.** Create a new Streamlit in Snowflake app. Give it an appropriate name and select the GSHEET_WH warehouse, GSHEET_APP database, and PUBLIC schema:
-
+**Step 8.** Using the GHEET_ADMIN role, create a new Streamlit in Snowflake app. Give it an appropriate name and select the GSHEET_WH warehouse, GSHEET_APP database, and PUBLIC schema:
 ![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/2ef2c6ad-742e-40a1-a314-16da1f9133d8)
 
 **Step 9.** Copy and paste the python code from Google_Sheets_SiS.py into your Streamlit app:
