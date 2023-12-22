@@ -19,7 +19,7 @@ Please follow the steps below to install the connnector in your Snowflake Accoun
 **Step 4.** Create a new Google Service Account. You must share your Google Sheet with this user to grant access to the SiS app: 
 ![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/cd3df72d-5c38-4079-a883-8c7228fe9ba3)
 
-**Step 5.** Generate a new OAuth refresh token by navigating to https://developers.google.com/oauthplayground/. Click on settings and enter your OAuth Client ID and Secret:
+**Step 5.** Generate a new OAuth refresh token by navigating to https://developers.google.com/oauthplayground/. Click on settings and enter your OAuth Client ID and Secret and also select the Google Sheets API v4 scopes:
 ![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/b471cd51-8d06-4722-bd4a-63960aee1968)
 
 **Step 6.** Click on Authorize APIs and then exchange authorization code for tokens. Copy and paste your OAuth refresh token into line 72 of Google_Sheets_External_Access.sql:
