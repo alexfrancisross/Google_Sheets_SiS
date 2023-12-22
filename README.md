@@ -6,8 +6,12 @@
  Please follow the steps below to install the connnector in your Snowflake Account:
 
  **Step 1.** Enable the Google Sheets API by navigating to this url and clicking enable: https://console.cloud.google.com/marketplace/product/google/sheets.googleapis.com:
+![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/e915d265-602d-42cd-ba65-bc329c80ffb0)
 
  **Step 2.** Create OAuth 2.0 Client ID for your GCP Project by navigating to https://console.cloud.google.com/apis/credentials:
+![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/27708d94-e04d-49c1-a79d-77bddf1c540a)
+![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/472aa97a-127d-40b8-b0c2-39a4e13e9391)
+
 
 **Step 3.** Copy and paste your OAUTH_CLIENT_ID and OAUTH_CLIENT_SECRET values into lines 56 and 57 of Google_Sheets_External_Access.sql:
 ![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/7a1800e5-dcdc-4fec-9a5b-d5352d1e307c)
