@@ -22,7 +22,7 @@ Please follow the steps below to install the connnector in your Snowflake Accoun
 **Step 5.** Generate a new OAuth refresh token by navigating to https://developers.google.com/oauthplayground/. Click on settings and enter your OAuth Client ID and Secret:
 ![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/b471cd51-8d06-4722-bd4a-63960aee1968)
 
-**Step 6.** Click on Authorize APIs and then Exchange authorization code for tokens. Copy and paste your OAuth refresh token into line 72 of Google_Sheets_External_Access.sql:
+**Step 6.** Click on Authorize APIs and then exchange authorization code for tokens. Copy and paste your OAuth refresh token into line 72 of Google_Sheets_External_Access.sql:
 ![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/4768fee7-ddc3-44c6-90ca-3158442dc5a1)
 ![image](https://github.com/alexfrancisross/Google_Sheets_SiS/assets/11485060/e8a489a8-1f5d-4274-8cfb-a311f58746b1)
 
